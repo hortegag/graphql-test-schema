@@ -1,0 +1,13 @@
+
+"A non-negative integer"
+scalar UnsignedInt
+
+type Continent {
+    code: ID!
+    name: String!
+    population: UnsignedInt
+}
+
+input ContinentInput {
+    numberPopulation: UnsignedInt = 0
+}
